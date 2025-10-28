@@ -21,10 +21,10 @@ public class Main {
             return 1;
         }
         if (value < 0) {
-            // Вычисляем по формуле F(-n) = (-1)^(n+1) * F(n)
+            // Calculate using the formula F(-n) = (-1)^(n+1) * F(n)
             return (int) Math.pow(-1, value + 1) * calculateFibonacci(-value);
         } else {
-            // Рекурсивное вычисление для положительных чисел
+            // Recursive calculation for positive numbers
             return calculateFibonacci(value - 1) + calculateFibonacci(value - 2);
         }
     }
