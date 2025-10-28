@@ -23,7 +23,6 @@ public class Main {
 
     private static int readSeconds() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input seconds: ");
         while(true) {
             String line = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
             if (line == null) {

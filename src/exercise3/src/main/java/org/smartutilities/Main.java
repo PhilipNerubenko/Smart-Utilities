@@ -31,7 +31,6 @@ public class Main {
 
     private static int readValue() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input value: ");
         while(true) {
             String line = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
             if (line == null) {

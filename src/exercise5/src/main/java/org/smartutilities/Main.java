@@ -7,6 +7,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int count = readValue(scanner);
+
+        scanner.nextLine();
+
         if (count <= 0) {
             System.out.println("Input error. Size <= 0");
             return;
