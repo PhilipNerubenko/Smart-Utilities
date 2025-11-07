@@ -17,7 +17,7 @@ If task N needs code from task N-1, copy the previous folder and continue.
 Read six `double` values (three vertex coordinates).
 
 Print:
-- `Perimeter: &lt;value&gt;` (3 decimal places) if the points form a triangle
+- `Perimeter: <value>` (3 decimal places) if the points form a triangle
 - `It's not a triangle` otherwise
 
 Error handling:
@@ -63,7 +63,7 @@ Output:
 - `There are no negative elements` if none found
 
 Error handling:
-- `size ≤ 0` → `Input error. Size &lt;= 0`
+- `size ≤ 0` → `Input error. Size <= 0`
 
 Requirements:
 - Use a `for` loop with precondition
@@ -80,7 +80,7 @@ Output if none found:
 - `There are no such elements`
 
 Error handling:
-- `size ≤ 0` → `Input error. Size &lt;= 0`
+- `size ≤ 0` → `Input error. Size <= 0`
 
 Requirements:
 - Use a `while` loop and a helper method
@@ -94,7 +94,7 @@ Read `int size`, then `size` `double` values.
 Sort ascending using your own selection-sort routine (no library sort).
 
 Error handling:
-- `size ≤ 0` → `Input error. Size &lt;= 0`
+- `size ≤ 0` → `Input error. Size <= 0`
 
 Constraints:
 - Use only primitive types
@@ -115,7 +115,7 @@ Outputs:
 
 Error handling:
 - File missing → `Input error. File doesn't exist`
-- `count ≤ 0` → `Input error. Size &lt;= 0`
+- `count ≤ 0` → `Input error. Size <= 0`
 - Too few numbers → `Input error. Insufficient number of items`
 
 ---
@@ -138,7 +138,7 @@ Constraints:
 ---
 
 ## Task 09 – Sub-string Filter
-Read `int n`, then `n` strings into a `List&lt;String&gt;`.
+Read `int n`, then `n` strings into a `List<String>`.
 
 Then read one filter string `sub`.
 
@@ -155,7 +155,7 @@ Create simple `User` class (fields: `String name`, `int age`) in its own file.
 Read amount of users, then pairs `name` `age`.
 
 Processing:
-- Negative/zero age → `Incorrect input. Age &lt;= 0` (skip user)
+- Negative/zero age → `Incorrect input. Age <= 0` (skip user)
 - Print comma-separated names of users with age ≥ 18
 
 Requirements:
